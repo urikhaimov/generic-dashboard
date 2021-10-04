@@ -10,8 +10,8 @@ const history = createBrowserHistory()
 
 const App = () => {
   return (
-    <UserContext.Provider value={{'title':'hello'} } >
-    <Router history={history}>
+    <UserContext.Provider value={{ 'title': 'hello' }} >
+      <Router history={history} >
         <Route path='/' exact component={Home} />
         <Route path='/dashboard/:id' component={Dashboard} />
       </Router>
