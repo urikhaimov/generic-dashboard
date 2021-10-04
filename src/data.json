@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "fullName" : "Uri Khaimov",
+        "dashboard-components" : ["Comp1", "Comp2", "Comp3", "Comp4"]
+    },{
+        "id": 2,
+        "fullName" : "John Smith",
+        "dashboard-components" : ["Comp5", "Comp2", "Comp3", "Comp4"]
+    },{
+        "id": 3,
+        "fullName" : "Phil Collins",
+        "dashboard-components" : ["Comp1", "Comp2", "Comp3", "Comp5"]
+    },{
+        "id": 4,
+        "fullName" : "Barbara Streisand",
+        "dashboard-components" : ["Comp1", "Comp2", "Comp5", "Comp4"]
+    }
+]
