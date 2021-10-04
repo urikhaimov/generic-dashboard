@@ -9,7 +9,10 @@ const Dashboard = (props) => {
     const user = data.find((e) => e.id === parseInt(id));
     const list = user ? user["dashboard-components"] : [];
 
-    return (<div className="dashboard-grid">
+    return (
+    <div>  <div className="title">Hello {user.fullName}  <a href='/'>back</a></div>  
+          <div className="dashboard-grid">
+             
         {
             list.length === 0 && <div> sorry there is no user</div>
         }
@@ -30,7 +33,7 @@ const Dashboard = (props) => {
                 )
             })
         }
-    </div>);
+    </div></div>);
 };
 
 

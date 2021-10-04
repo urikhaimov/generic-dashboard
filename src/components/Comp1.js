@@ -5,7 +5,7 @@ const Comp1 = () => {
  let context = useContext(UserContext);
  
 
-  return (<div>Component 1</div>);
+  return (<div className="red">Component 1</div>);
 };
 
 export default Comp1

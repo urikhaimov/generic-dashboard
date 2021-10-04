@@ -24,5 +24,58 @@ code {
 .dashboard-grid .box{
   width: 45vw;
   min-height: 40vh;
+  text-align: center;
 }
 
+.dashboard-grid .box .red{
+  min-height: 40vh;
+  background-color: red;
+  color: white;
+}
+
+.dashboard-grid .box .blue{
+ 
+  min-height: 40vh;
+  color: white;
+  background-color: blue;
+}
+.dashboard-grid .box .green{
+  min-height: 40vh;
+  color: white;
+  background-color: green ;
+}
+.dashboard-grid .box .yellow{
+  min-height: 40vh;
+  background-color: yellow;
+}
+.dashboard-grid .box .black{
+  min-height: 40vh;
+  background-color: black;
+  color: white;
+}
+
+.home {
+  width: 90vw;
+  min-height: 80vh;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home ul {
+  text-align: left;
+  list-style-type: none;
+  font-weight: normal;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 14px;
+}
+.title {
+  width: 90vw;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}

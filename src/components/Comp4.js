@@ -1,5 +1,5 @@
 import React from "react";
 
 export default () => {
-  return <div>Component 4</div>;
+  return <div className="yellow">Component 4</div>;
 };
